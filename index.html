@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap - something for smartphones-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="Main.js"></script>
+</head>
+<body>
+    <form>
+    <div>
+        <input placeholder="Enter your guess" type="text" id="ar">
+    </div>
+    </form>
+    <button class="btn btn-primary" id="guess" onclick="guessing()"> guess </button> <br/> </br>
+    <button class="btn btn-primary" id="giveup" onclick="give_up()"> give up </button> <br/> <br/>
+    <button class="btn btn-primary" id="newgame" onclick="restart()"> restart </button> <br/> <br/>
+</body>
+</html>
