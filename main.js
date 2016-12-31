@@ -25,4 +25,5 @@ function guessing() {
 function restart() {
     secretNum = Math.floor((Math.random() * 100) + 1);
     alert("The computer has chosen another number, now you can play again")
+    counter = 0;
 }
